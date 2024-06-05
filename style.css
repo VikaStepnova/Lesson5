@@ -1,0 +1,24 @@
+body {
+  font-family: Arial;
+  font-weight: 600;
+  font-style: italic;
+  background: url('https://i.pinimg.com/originals/d8/0c/2b/d80c2b99a948cc1713049e237639e4e0.png') repeat-y;
+}
+
+h1, h2 {
+  color: red;
+  text-decoration: underline;
+  font-family: Serif;
+}
+
+.big {
+  font-size: 40px;
+}
+
+.wide {
+  line-height: 80px;
+}
+
+.big.wide strong {
+  color: green;
+}
