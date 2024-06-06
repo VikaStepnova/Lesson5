@@ -2,7 +2,24 @@ body {
   font-family: Arial;
   font-weight: 600;
   font-style: italic;
-  background: url('https://i.pinimg.com/originals/d8/0c/2b/d80c2b99a948cc1713049e237639e4e0.png') repeat-y;
+  background: url('https://i.pinimg.com/originals/d8/0c/2b/d80c2b99a948cc1713049e237639e4e0.png');
+}
+
+p {
+  border-left: 1px solid black;
+  padding: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+  columns: 4;
+  column-gap: 100px;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
 }
 
 h1, h2 {
@@ -21,4 +38,8 @@ h1, h2 {
 
 .big.wide strong {
   color: green;
+}
+
+#img1 {
+  width: 100%;
 }
